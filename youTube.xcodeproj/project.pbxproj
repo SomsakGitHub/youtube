@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE4A494426808BC7008265C7 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4A494226808BC7008265C7 /* CollectionViewCell.swift */; };
+		FE4A494526808BC7008265C7 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE4A494326808BC7008265C7 /* CollectionViewCell.xib */; };
 		FE58844026804142008D2BB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE58843F26804142008D2BB7 /* AppDelegate.swift */; };
 		FE58844226804142008D2BB7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE58844126804142008D2BB7 /* SceneDelegate.swift */; };
 		FE58844426804142008D2BB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE58844326804142008D2BB7 /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE4A494226808BC7008265C7 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		FE4A494326808BC7008265C7 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
 		FE58843C26804142008D2BB7 /* youTube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = youTube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE58843F26804142008D2BB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE58844126804142008D2BB7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +70,8 @@
 				FE58844D26804143008D2BB7 /* LaunchScreen.storyboard */,
 				FE58845026804143008D2BB7 /* Info.plist */,
 				FE58844826804142008D2BB7 /* youTube.xcdatamodeld */,
+				FE4A494226808BC7008265C7 /* CollectionViewCell.swift */,
+				FE4A494326808BC7008265C7 /* CollectionViewCell.xib */,
 			);
 			path = youTube;
 			sourceTree = "<group>";
@@ -129,6 +135,7 @@
 			files = (
 				FE58844F26804143008D2BB7 /* LaunchScreen.storyboard in Resources */,
 				FE58844C26804143008D2BB7 /* Assets.xcassets in Resources */,
+				FE4A494526808BC7008265C7 /* CollectionViewCell.xib in Resources */,
 				FE58844726804142008D2BB7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE4A494426808BC7008265C7 /* CollectionViewCell.swift in Sources */,
 				FE58844426804142008D2BB7 /* ViewController.swift in Sources */,
 				FE58844A26804142008D2BB7 /* youTube.xcdatamodeld in Sources */,
 				FE58844026804142008D2BB7 /* AppDelegate.swift in Sources */,
